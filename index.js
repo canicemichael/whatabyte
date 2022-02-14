@@ -18,6 +18,8 @@ const port = process.env.PORT || "8001";
  */
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "pug");
+//write this then create a public folder containing style.css file
+app.use(express.static(path.join(__dirname, "public")));
 
 /**
  * Routes Definitions
