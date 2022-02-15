@@ -95,6 +95,11 @@ a {
     box-shadow: var(--ui-shadow);
 }
 
+.Message {
+    background-color: white;
+    padding: 1em;
+}
+
 .Message > .Title {
     padding-bottom: 20px;
 }
@@ -133,4 +138,14 @@ a {
 
     border-bottom: var(--ui-shadow-border);
     box-shadow: var(--ui-shadow);
+}
+
+.WelcomeView {
+    background: url("food.jpeg") left bottom;
+    background-size: cover;
+}
+
+.UserView {
+    background: url("https://cdn.auth0.com/blog/whatabyte-portal/patio.jpeg") left bottom;
+    background-size: cover;
 }
