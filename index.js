@@ -38,3 +38,7 @@ app.get("/user", (req, res) => {
 app.listen(port, () => {
     console.log(`Listening to requests on http://localhost:${port}`);
 })
+
+
+
+// https://auth0.com/blog/create-a-simple-and-stylish-node-express-app/
